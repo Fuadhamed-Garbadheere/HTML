@@ -1,0 +1,19 @@
+body{
+    
+    flex-direction: column;
+    margin: auto;
+    width: 80vw;
+   background-color: orange;
+}
+h1{
+    color: blue;
+    font-size: 35px;
+}
+h2{
+    color: darkred;
+    font-size: 30px;
+}
+h3{
+    color: forestgreen;
+    font-size: 25px;
+}

@@ -1,0 +1,45 @@
+form{
+    background:orange;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ 
+}
+h1{
+    background-color: #ddd;
+    color: blueviolet;
+    text-align: center;
+    height: 40px;
+}
+h2{
+    background-color: #c2b6b6;
+    color: red;
+    text-align: center;
+    height: 30px;
+}
+box{
+    width: 500px;
+    height: 280px;
+    border: 5px solid black;
+    margin: 20px auto;
+}
+canvas{
+    background: #ddd;
+    width:755px;
+    height: 300px;
+    
+}
+legend{
+    color: brown;
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+
+}
+fieldset{
+    
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>HOMEWORK4</title>
+    
+</head>
+    <body>
+        <h1><i>Fourth Homework</i></h1><hr>
+         <form action="store.php" method="post">
+            <box>
+                <legend> <b>Student Informotion</b></legend>
+             <td>
+                <td>
+                   First name:
+                </td>
+                <input type="text" name="fname" placeholder="First name">
+             </td><br>
+             <td>
+                <td>
+                Surname: &ensp; 
+                </td>
+                <input type="text" name="sname" placeholder="Surname">
+             </td><br>
+             <td>
+                <td>
+                   Brithday: &ensp;
+                </td>
+                <input type="date">
+                <td><br>
+                    <td>
+                       Student id: 
+                    </td>
+                    <input type="text" name="phone" placeholder="stdn id" pattern="\d*"required>
+                 </td><br>
+                 <td>
+                    <td>
+                       Phone number: 
+                    </td>
+                    <input type="number" name="number" required>
+                 </td><br>
+                 <td>
+                    Gmail: &ensp;
+                 </td>
+                 <input type="email" name="mail" placeholder="example@---.com" required>
+              </td><br>
+              <td>
+                Stdnt file:
+             </td>
+             <input type="file" required>
+          </td><br>
+          <td>
+            <td>
+                Nationality: 
+             </td>
+             <input type="text" name="txts" required>
+          </td><br>
+            Address: &ensp;
+         </td>
+         <textarea rows="5"  cols="20" placeholder="Address" required></textarea>
+            </td><br>
+           
+             </td><br>
+        </form>
+      </box> 
+
+      <h2>Simple Canvas </h2>
+
+   <body>
+      <canvas id="myCanvas" width="400" height="400"></canvas>
+    
+      <script>
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+    
+        // Draw a rectangle
+        context.fillStyle = "red";
+        context.fillRect(5, 50, 120, 180);
+    
+        // Draw a circle
+        context.beginPath();
+        context.arc(200, 200, 60, 0, 2 * Math.PI, false);
+        context.fillStyle = "blue";
+        context.fill();
+    
+        // Draw a line
+        context.beginPath();
+        context.moveTo(250, 250);
+        context.lineTo(400, 400);
+        context.strokeStyle = "green";
+        context.lineWidth = 25;
+        context.stroke();
+      </script>
+    </body>
+   
+        <fieldset>
+            <legend>Course</legend>
+           <b> insha allah böyle güzel oldu sanarim.</b>
+        </fieldset>
+    </body>
+</html>
